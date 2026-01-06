@@ -1,0 +1,11 @@
+*{
+    margin: 0; /* Removes all the margins from the page */
+    padding: 0; /* Removes al the paddings too */
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: #FFF8F3;
+}
