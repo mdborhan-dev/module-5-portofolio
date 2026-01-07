@@ -25,7 +25,20 @@
   font-weight: bold;
   cursor: pointer;
 }
-
+.section-heading {
+  max-width: 827px;
+  text-align: center;
+}
+.section-heading h2 {
+    font-size: 35;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.section-heading p {
+  font-size: 18;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
 /* main style */
 
 header{
@@ -36,8 +49,8 @@ header{
     background-repeat: no-repeat;
 }
 nav{
-  width: 168%;
-  max-width: 1450px;
+  width: 71%;
+  max-width: 1140px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -87,4 +100,56 @@ nav .menu a{
   max-width: 584px;
   vertical-align: middle;
   /* vertical-align: middle; aligns inline elements with text, not whole blocks */ 
+}
+/* #about {
+  padding: 124px 230px 136px 230px;
+  align-items: center;
+}
+#about .about-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0;
+  text-align: center;
+}
+#about .about-container .about-header h2{
+  font-size: 35;
+  font-weight: bold;
+  margin-bottom: 30px;
+  align-items: center;
+}
+#about .about-container .about-header p{
+  font-size: 18;
+  margin-bottom: 30px;
+}
+#about .about-container .about-contents{
+  display: flex;
+  justify-content: space-between;
+} */
+
+#about {
+padding-top: 130px;
+}
+#about .about-container
+{
+width: 71%;
+max-width: 1140px;
+margin: 0 auto;
+text-align: center;
+background-color: #FFF8F3;
+padding: 131px 156px;
+}
+#about .about-container .about-contents{
+  display: flex;
+  justify-content: space-around;
+}
+#about .about-container .about-contents .info-card p{
+    font-size: 20px;
+  line-height: 30px;
+  color: #757575;
+}
+#about .about-container .about-contents .info-card h4{
+    font-size: 20px;
+  line-height: 30px;
+  color: #181818;
+  font-weight: bold;
 }
